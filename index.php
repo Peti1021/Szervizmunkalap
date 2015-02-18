@@ -1,11 +1,5 @@
 <?php
 
-$title = "Home";
-$content = "Hello World";
-
-include 'Template.php';
-
-
 session_start();
 
 require_once 'config.php';
@@ -39,6 +33,7 @@ switch ($page) {
     default:
         $pageTitle = "Oldal nem található";
         include('views/404Page.php');
+    
 }
 
 $db->close();
