@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PHP Portál - <?php echo $pageTitle; ?></title>
+    <title>Szervizmunkalap - <?php echo $pageTitle; ?></title>
     <link rel="stylesheet" type="text/css" href="views/css/base.css">
     
     <!-- jQuery: -->

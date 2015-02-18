@@ -29,7 +29,7 @@ if (isset($_POST['loginSubmit'])) {
 		$_SESSION['logged'] = true;
 	}
 	
-	header('Location: http://localhost/lia/admin/');
+	header("Location: $HOST/admin");
 	exit;
 }
 
