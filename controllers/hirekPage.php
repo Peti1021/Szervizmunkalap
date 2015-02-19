@@ -1,6 +1,6 @@
 <?php
 
-$pageTitle = "Kezdőlap";
+$pageTitle = "Hírek";
 // Hírek kiolvasása adatbázisból:
 
 $query = "SELECT * FROM `news`";

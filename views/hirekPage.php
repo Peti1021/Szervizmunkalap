@@ -1,7 +1,7 @@
 <?php include('includes/header.php'); ?>
 
 <div id="content">
-  <h2>Kezdőlap</h2>
+  <h2><?php echo $pageTitle; ?></h2>
   <?php
   foreach ($news as $item) {
     echo '<div class="news">';

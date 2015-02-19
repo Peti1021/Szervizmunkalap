@@ -14,17 +14,18 @@ if (isset($_GET['q'])) {
 
 // Aktuális lap betöltése:
 switch ($page) {
-    case 'kezdolap':
-        include('controllers/frontPage.php');
-        include('views/frontPage.php');
+    case 'hirek':
+        include('controllers/hirekPage.php');
+        include('views/hirekPage.php');
         break;
     case 'bemutatkozas':
         include('controllers/introductionPage.php');
         include('views/introductionPage.php');
         break;
-    case 'kepgaleria':
-        $pageTitle = "Képgaléria";
-        include('views/imageGalleryPage.php');
+    case 'ellenorzo':
+        $pageTitle = "Állapot ellenőrző";
+        include('controllers/ellenorzoPage.php');
+        include('views/ellenorzoPage.php');
         break;
     case 'kapcsolat':
         include('controllers/contactPage.php');
