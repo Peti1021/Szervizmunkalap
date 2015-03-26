@@ -27,6 +27,6 @@ if (isset($_POST['contactSubmit'])) {
   $emailmessage .= "\nÜzenet:\n\n";
   $emailmessage .= $message;
   
-  mail('gazdag.andras@gmail.com', 'PHPPortál üzenet', $emailmessage);
+  mail('Peti1021@hotmail.com', 'PHPPortál üzenet', $emailmessage);
   
 }

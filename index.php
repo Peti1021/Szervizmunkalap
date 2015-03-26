@@ -31,6 +31,7 @@ switch ($page) {
         include('controllers/contactPage.php');
         include('views/contactPage.php');
         break;
+       
     default:
         $pageTitle = "Oldal nem található";
         include('views/404Page.php');

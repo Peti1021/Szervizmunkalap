@@ -6,4 +6,4 @@ $DB_PASS = '';
 $DB_NAME = 'Szervizmunkalap';
 
 
-$HOST = 'http://localhost/phpportal';
+$HOST = 'http://localhost/Szervizmunkalap';

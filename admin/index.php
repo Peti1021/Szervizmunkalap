@@ -22,8 +22,25 @@ switch ($page) {
     include('controllers/newsPage.php');
     include('views/newsPage.php');
     break; 
+  case 'felhasznalok':
+    include('controllers/usersPage.php');
+    include('views/usersPage.php');
+    break; 
+  case 'munkalapok':
+    include('controllers/munkalapokPage.php');
+    include('views/munkalapokPage.php');
+    break; 
+  case 'munkalapreszletei':
+    include('controllers/munkalapreszleteiPage.php');
+    include('views/munkalapreszleteiPage.php');
+    break; 
+  case 'javitasbefejezese':
+    include('controllers/javitasbefejezesePage.php');
+    include('views/javitasbefejezesePage.php');
+    break; 
   case 'kijelentkezes':
-	unset($_SESSION['logged']);
+	//session_regenerate_id(false);
+	session_unset();
     include('controllers/loginPage.php');
     include('views/loginPage.php');
     break; 
