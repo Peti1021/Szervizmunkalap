@@ -31,7 +31,8 @@ body {
 }
 #content input,
 #content textarea,
-#content option{
+#content select,
+#content option {
     color: black;
 }
 
@@ -108,3 +109,4 @@ body {
     background-color: skyblue;
     color:black
 }
+
